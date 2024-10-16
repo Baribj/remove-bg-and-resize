@@ -31,7 +31,7 @@ print("Background removed from all images and saved as PNG!")
 
 
 try:
-    subprocess.run(['node', 'resize.js'], check=True)
+    subprocess.run(['node', 'crop.js'], check=True)
     print("JavaScript script executed successfully.")
 except subprocess.CalledProcessError as e:
     print(f"Error executing JavaScript script: {e}")

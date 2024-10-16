@@ -6,4 +6,4 @@
 
 3- Run `npm i`.
 
-4- Run `remove-bg.py`.
+4- Run `script.py`.
